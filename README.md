@@ -71,3 +71,12 @@ Test Post by creating new course , used Postman for this
 <img width="673" alt="10" src="https://user-images.githubusercontent.com/90444833/156633780-1bcb57b1-7303-4a67-bac9-c274fd1815fc.png">
 <img width="629" alt="11" src="https://user-images.githubusercontent.com/90444833/156633811-f77ddb32-7b08-4c8a-8223-bc72391dca54.png">
 <img width="632" alt="12" src="https://user-images.githubusercontent.com/90444833/156633827-fc31ddcf-7a8c-415b-8cab-4d4824a199f8.png">
+
+## Step6: put - update the Course
+<img width="418" alt="13" src="https://user-images.githubusercontent.com/90444833/156639316-d08af5d4-2f19-47a4-9cd8-0f3b4aa4536a.png">
+<img width="343" alt="14" src="https://user-images.githubusercontent.com/90444833/156639341-53111228-e8f7-4943-8f1f-51ddb1699aa7.png">
+<img width="626" alt="15" src="https://user-images.githubusercontent.com/90444833/156639355-c52a42f2-c61b-4291-a4e7-dbec6aa22caa.png">
+<img width="629" alt="16" src="https://user-images.githubusercontent.com/90444833/156639368-03825b1c-355a-4be3-8a15-f51f7ef1d838.png">
+
+
+
