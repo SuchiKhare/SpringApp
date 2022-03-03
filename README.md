@@ -78,5 +78,11 @@ Test Post by creating new course , used Postman for this
 <img width="626" alt="15" src="https://user-images.githubusercontent.com/90444833/156639355-c52a42f2-c61b-4291-a4e7-dbec6aa22caa.png">
 <img width="629" alt="16" src="https://user-images.githubusercontent.com/90444833/156639368-03825b1c-355a-4be3-8a15-f51f7ef1d838.png">
 
+## Step7: Embeded Apache Derby and CRUD Repository
+
+<img width="632" alt="17" src="https://user-images.githubusercontent.com/90444833/156658005-19012fb1-cc46-48fa-a568-ea7ea26eee35.png">
+<img width="611" alt="18" src="https://user-images.githubusercontent.com/90444833/156658021-9f934597-1ed2-475f-93a5-be1325f48cfc.png">
+<img width="626" alt="19" src="https://user-images.githubusercontent.com/90444833/156658034-a35a7156-70bc-405c-9dd8-dc37b800134e.png">
+
 
 
