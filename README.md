@@ -16,4 +16,13 @@ create a method , mark with @RequestMapping("/hello")
   
 <img width="438" alt="2" src="https://user-images.githubusercontent.com/90444833/156600010-0cb192d7-e596-4a9c-80db-191d2316e186.png">
 
+## Step3:
+create new package com.suchi.springbootstarter.course
+CourseController -- method returning list of courses
+Course - model object having courseId, courseName, description.
+hit url /courses - spring will return the json object
+
+<img width="959" alt="3" src="https://user-images.githubusercontent.com/90444833/156605697-cc074e19-ce38-4919-b00f-712831285d12.png">
+
+
 
