@@ -31,4 +31,30 @@ hit url /courses - spring will return the json object
  why embbeded - 
  convenience,servlet container config is now application config,useful for microservices architectures, stanalone app.
  
+ ## few things on MVC Controller
+For us MVC dependency was present due to starter.
+Input request -->
+		App -->
+			Spring MVC -- Controller( URI, Http Method, functionality-java method)
+			MVC return the proper response meaning as CourseController was RestController it did conversion to json
+			Resource- Course is a resource
+			Methods- get post - what u want to do with the noun (resources)	
 
+			GET 	/course  -> get all courses
+			GET 	/tourse/id --> get the course
+			POST 	/courses   --> Create new Topic
+			PUT 	/courses/id --> updates the topic
+			Delete  /courses/id --> delete the topic
+## Step4: 	Request --> Controller-->Service-->Model
+Business Service - Spring creates instance of Service which are singleton.
+Create a class CourseService and mark @Service , this will mark as business service
+in another class say we need in Controller then spring is not going to create the new insatnce of service
+but will inject and we can do that by @autowired..	
+	
+	http://localhost:8080/courses  -->CourseController-->CourseService-->Course
+								
+<img width="359" alt="4" src="https://user-images.githubusercontent.com/90444833/156617875-0eb52351-0b4c-4c06-b6fc-4ce562817ddf.png">
+<img width="417" alt="5" src="https://user-images.githubusercontent.com/90444833/156617901-9b42c1ae-fb83-4887-94a3-8673334b54e0.png">
+<img width="909" alt="6" src="https://user-images.githubusercontent.com/90444833/156617952-47f146af-193a-401f-a417-dc1bdd5a997b.png">
+
+## Step5: 
