@@ -26,4 +26,13 @@ public class CourseService {
 	public void createCourse(Course c) {
 		courses.add(c);
 	}
+
+	public void updateCourse(int course_Id, Course course) {
+		for(Course c : courses) {
+			if (c.getCourseId() == course_Id) {
+				courses.set(course_Id, course);
+			}
+		}
+		
+	}
 }

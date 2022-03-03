@@ -2,9 +2,6 @@ package com.suchi.springbootstarter.course;
 
 import java.util.List;
 
-import javax.websocket.server.PathParam;
-
-import org.jboss.logging.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -32,6 +29,13 @@ public class CourseController {
 		//RequestBody is going to tell that request payload body is going to contain the json
 		//convert to instance Cource and send further.
 		course_service.createCourse(course);
+		
+	}
+	@RequestMapping(method = RequestMethod.PUT, value = "/course/{Id}")
+	public void updateCourse(@PathVariable("Id")  int course_Id, @RequestBody Course course) {
+		//RequestBody is going to tell that request payload body is going to contain the json
+		//convert to instance Cource and send further.
+		course_service.updateCourse(course_Id, course);
 		
 	}
 }
