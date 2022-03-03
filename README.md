@@ -58,6 +58,10 @@ but will inject and we can do that by @autowired..
 <img width="909" alt="6" src="https://user-images.githubusercontent.com/90444833/156617952-47f146af-193a-401f-a417-dc1bdd5a997b.png">
 
 ## Step5: getCourse by Id  and post to create new course
+earning annotations : 
+		@RequestMapping("/course/{Id}")
+		@RequestMapping(method = RequestMethod.POST, value = "/courses")
+
 <img width="628" alt="7" src="https://user-images.githubusercontent.com/90444833/156633466-8dda6d9f-b8ea-4d18-a278-322dbdf8356d.png">
 <img width="693" alt="8" src="https://user-images.githubusercontent.com/90444833/156633483-5cf1244e-7b8c-41d5-af72-d295d98f33a2.png">
 Test Get Course by ID
