@@ -24,5 +24,11 @@ hit url /courses - spring will return the json object
 
 <img width="959" alt="3" src="https://user-images.githubusercontent.com/90444833/156605697-cc074e19-ce38-4919-b00f-712831285d12.png">
 
-
+## basics:
+ we added parent spring-boot-starter-parent telling which version, dependency tells maven what to download.
+ combination of versions and jars- called build of materials in spring.
+ Tomcat is embbeded in Springboot app
+ why embbeded - 
+ convenience,servlet container config is now application config,useful for microservices architectures, stanalone app.
+ 
 
