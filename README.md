@@ -57,4 +57,13 @@ but will inject and we can do that by @autowired..
 <img width="417" alt="5" src="https://user-images.githubusercontent.com/90444833/156617901-9b42c1ae-fb83-4887-94a3-8673334b54e0.png">
 <img width="909" alt="6" src="https://user-images.githubusercontent.com/90444833/156617952-47f146af-193a-401f-a417-dc1bdd5a997b.png">
 
-## Step5: 
+## Step5: getCourse by Id  and post to create new course
+<img width="628" alt="7" src="https://user-images.githubusercontent.com/90444833/156633466-8dda6d9f-b8ea-4d18-a278-322dbdf8356d.png">
+<img width="693" alt="8" src="https://user-images.githubusercontent.com/90444833/156633483-5cf1244e-7b8c-41d5-af72-d295d98f33a2.png">
+Test Get Course by ID
+<img width="329" alt="9" src="https://user-images.githubusercontent.com/90444833/156633513-373826f5-234d-42f6-b949-8475e739be30.png">
+Test Post by creating new course , used Postman for this
+	Also add contenttype as application/json and body to have the to be added course in json format.
+<img width="673" alt="10" src="https://user-images.githubusercontent.com/90444833/156633780-1bcb57b1-7303-4a67-bac9-c274fd1815fc.png">
+<img width="629" alt="11" src="https://user-images.githubusercontent.com/90444833/156633811-f77ddb32-7b08-4c8a-8223-bc72391dca54.png">
+<img width="632" alt="12" src="https://user-images.githubusercontent.com/90444833/156633827-fc31ddcf-7a8c-415b-8cab-4d4824a199f8.png">
