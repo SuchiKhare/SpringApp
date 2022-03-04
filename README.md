@@ -84,5 +84,22 @@ Test Post by creating new course , used Postman for this
 <img width="611" alt="18" src="https://user-images.githubusercontent.com/90444833/156658021-9f934597-1ed2-475f-93a5-be1325f48cfc.png">
 <img width="626" alt="19" src="https://user-images.githubusercontent.com/90444833/156658034-a35a7156-70bc-405c-9dd8-dc37b800134e.png">
 
+## Step8: Custom Method in CRUD and use of JPA property Many to one
+Added Topic using post --> localhost:8081/topic/
+{
+    "topicId": 1,
+    "topicName": "Java",
+    "description": "Java"
+}
+Get Topic -> localhost:8081/topic/
+Get particular Topic -> localhost:8081/topic/1
+
+Add Course to particular Topic using post -->localhost:8081/topics/1/courses
+{
+    "courseId": 3,
+    "courseName": "Maven",
+    "description": "Maven"
+}
+<img width="667" alt="20" src="https://user-images.githubusercontent.com/90444833/156792019-6a60c00b-294b-4421-bb23-3c77895b7e6d.png">
 
 
