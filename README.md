@@ -108,3 +108,8 @@ localhost:8081/beans
 management.port=9001 instead of server.port=8081
 <img width="621" alt="21" src="https://user-images.githubusercontent.com/90444833/156852763-6bee8966-1ce8-40ba-9fde-1faccf7709b1.png">
 
+## Step 10: spring-security
+Add the dependency
+when u write the code for StudentController and hit the request http://localhost:8081/greet 
+<img width="670" alt="22" src="https://user-images.githubusercontent.com/90444833/156855285-f1dca23a-5ef3-4e47-bb23-a508e998a4bc.png">
+<img width="224" alt="23" src="https://user-images.githubusercontent.com/90444833/156855301-6b3ec4e7-7607-4651-9405-1e915b2df364.png">
