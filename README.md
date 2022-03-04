@@ -102,4 +102,9 @@ Add Course to particular Topic using post -->localhost:8081/topics/1/courses
 }
 <img width="667" alt="20" src="https://user-images.githubusercontent.com/90444833/156792019-6a60c00b-294b-4421-bb23-3c77895b7e6d.png">
 
+## Step9: Actuator - health check 
+localhost:8081/health
+localhost:8081/beans
+management.port=9001 instead of server.port=8081
+<img width="621" alt="21" src="https://user-images.githubusercontent.com/90444833/156852763-6bee8966-1ce8-40ba-9fde-1faccf7709b1.png">
 
