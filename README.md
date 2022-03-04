@@ -113,3 +113,14 @@ Add the dependency
 when u write the code for StudentController and hit the request http://localhost:8081/greet 
 <img width="670" alt="22" src="https://user-images.githubusercontent.com/90444833/156855285-f1dca23a-5ef3-4e47-bb23-a508e998a4bc.png">
 <img width="224" alt="23" src="https://user-images.githubusercontent.com/90444833/156855301-6b3ec4e7-7607-4651-9405-1e915b2df364.png">
+Request is intercepted by Spring-Securty and token is generated when u start the app. How it does is via filter.
+
+## Step11: How to configure quick our own username and password.
+See checking Step11: SecurityConfiguration under security folder.
+Implementation:
+	-extend the class WSCA and override the method configure configure(AMB)
+	-@EnableWebSecurity	
+        -getPasswordEncoder use @Bean of type PasswordEncoder
+<img width="503" alt="24" src="https://user-images.githubusercontent.com/90444833/156857518-37d3dddb-1b3c-49dc-b598-67d9f97505cb.png">
+<img width="516" alt="25" src="https://user-images.githubusercontent.com/90444833/156857565-7c5b7482-ca7d-48bd-a1ad-53c877dfa864.png">
+
