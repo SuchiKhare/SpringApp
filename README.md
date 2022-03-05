@@ -124,3 +124,10 @@ Implementation:
 <img width="503" alt="24" src="https://user-images.githubusercontent.com/90444833/156857518-37d3dddb-1b3c-49dc-b598-67d9f97505cb.png">
 <img width="516" alt="25" src="https://user-images.githubusercontent.com/90444833/156857565-7c5b7482-ca7d-48bd-a1ad-53c877dfa864.png">
 
+Liitle concept for step11:
+	AM (authenticate) in App  --> success or error
+	Affect the Authentication Manager
+	how to effect it by get AMBuilder and then configure AMBuilder 
+	AMBuilder asks what type of authentication u want.
+	say in memory db , then AMbuilder asks give userdeails and roles.
+	We are not directy dealing with AM but dealing via AMBuilder
