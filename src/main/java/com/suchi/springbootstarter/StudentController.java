@@ -11,5 +11,18 @@ public class StudentController {
 		return "Hello Student";
 	}
 	
+	@RequestMapping("/")
+	public String home() {
+		return "Welcome logged in user - both user and admin";
+	}
 	
+	@RequestMapping("/user")
+	public String user() {
+		return "Welcome user";
+	}
+	
+	@RequestMapping("/admin")
+	public String admin() {
+		return "Welcome only admin";
+	}
 }
