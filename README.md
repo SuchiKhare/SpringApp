@@ -131,3 +131,9 @@ Liitle concept for step11:
 	AMBuilder asks what type of authentication u want.
 	say in memory db , then AMbuilder asks give userdeails and roles.
 	We are not directy dealing with AM but dealing via AMBuilder
+
+## Step12: Authorization
+extend the class WSCA and override the method configure configure(HttpSecurity http)
+<img width="506" alt="26" src="https://user-images.githubusercontent.com/90444833/156862371-f46dacd3-0149-4afa-8178-d113150cb710.png">
+
+
