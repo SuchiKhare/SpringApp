@@ -136,4 +136,35 @@ Liitle concept for step11:
 extend the class WSCA and override the method configure configure(HttpSecurity http)
 <img width="506" alt="26" src="https://user-images.githubusercontent.com/90444833/156862371-f46dacd3-0149-4afa-8178-d113150cb710.png">
 
+## Filter-AuthenticationManager-AuthenticationProvider-UserDetailService
+AM (authenticate) in App  --> success or error , more than that.
+	Affect the Authentication Manager
+	how to effect it by get AMBuilder and then configure AMBuilder 
+	AMBuilder asks what type of authentication u want.
+	say in memory db , then AMbuilder asks give userdeails and roles.
+	We are not directy dealing with AM but dealing via AMBuilder, we use configure
+	who does actual authentication - by using providers
 
+AuthenticationProvider -->authenticate()- actual authetication and have supports() method.
+input -> Authentication Object with user credentials
+input -> Authentication Object with principal (logged in user)
+
+Single app can have multiple authentication providers : UserId/pwd, OAUTH , LDAP, SSO
+In order to coordinate we have AuthenticationMaager with authenticate() method
+ProviderManager implements ApplicationManager. it asks to all do u support. it deletgates to provider.
+
+AuthenticationProvider - what it needs - access IdentityStore 
+gAP ---------> IdentityStore
+input-userName-->
+output-userdetails-->
+So Spring has UserDetailsService (loadUserByUserName)
+
+UserDetails interface - getUsername , password, not expired etc .....
+
+AuthFilter --------i Authentication with creds ---> AuthenticationManager--->AuthenticationProvider---->UserDeatilsService
+                   o Authentication Principal															o UserDetails
+				
+this principal is saved in current Thread in security context.
+we can allow with session. Check another filter manages user session - subsequent request -it uses authentication with principal
+
+##
